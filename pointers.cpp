@@ -13,7 +13,6 @@ int main()
     p = &ptr; //first pointer pointing to the second pointer
 
     std::cout<<**p;  // unpacking the first pointer
-    delete p;
 
     return 0;
 }
