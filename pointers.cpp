@@ -11,9 +11,9 @@ int main()
     ptr = &value; //second pointer pointing to the square
 
     p = &ptr; //first pointer pointing to the second pointer
-    delete p;
 
     std::cout<<**p;  // unpacking the first pointer
+    delete p;
 
     return 0;
 }
